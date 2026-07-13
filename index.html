@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rakur — Yasal / Legal</title>
+<style>
+  :root {
+    --bg: #16110c;
+    --surface: #1f1811;
+    --stroke: #3a2f22;
+    --cream: #f3e9d8;
+    --muted: #b7a892;
+    --beige: #d8b98a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--cream);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 40px 22px 90px; }
+  header { text-align: center; margin-bottom: 8px; }
+  .brand {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 40px; letter-spacing: 6px; color: var(--cream); margin: 0;
+  }
+  .sub { color: var(--muted); font-size: 15px; margin: 6px 0 0; }
+  .updated { color: var(--muted); font-size: 13px; text-align: center; margin: 10px 0 26px; }
+  .toggle { display: flex; justify-content: center; gap: 8px; margin-bottom: 34px; }
+  .toggle button {
+    background: transparent; color: var(--muted);
+    border: 1px solid var(--stroke); border-radius: 999px;
+    padding: 8px 22px; font-size: 14px; font-weight: 600; cursor: pointer;
+    transition: all .15s ease;
+  }
+  .toggle button.active { background: var(--beige); color: #1a130c; border-color: var(--beige); }
+  .doc { margin-bottom: 44px; }
+  .doc h2 {
+    font-family: Georgia, serif; font-size: 24px; color: var(--cream);
+    border-bottom: 1px solid var(--stroke); padding-bottom: 10px; margin: 0 0 8px;
+  }
+  .clause { margin-top: 18px; }
+  .clause h3 { font-size: 15px; color: var(--beige); margin: 0 0 4px; }
+  .clause p { margin: 0; color: var(--muted); font-size: 15px; }
+  .lang { display: none; }
+  .lang.show { display: block; }
+  footer { text-align: center; color: var(--muted); font-size: 13px; margin-top: 30px; }
+  a { color: var(--beige); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 class="brand">RAKUR</h1>
+    <p class="sub" data-tr="Yasal ve Güven" data-en="Legal &amp; Trust">Yasal ve Güven</p>
+  </header>
+  <p class="updated" data-tr="Son güncelleme: 13 Temmuz 2026" data-en="Last updated: 13 July 2026">Son güncelleme: 13 Temmuz 2026</p>
+
+  <div class="toggle">
+    <button id="btn-tr" class="active" onclick="setLang('tr')">Türkçe</button>
+    <button id="btn-en" onclick="setLang('en')">English</button>
+  </div>
+
+  <!-- ===================== TÜRKÇE ===================== -->
+  <div class="lang show" id="lang-tr">
+    <section class="doc">
+      <h2>Kullanım Koşulları</h2>
+      <div class="clause"><h3>1. Taraflar ve Kabul</h3><p>Bu Kullanım Koşulları, Ramazan Kuru ("biz") tarafından sunulan Rakur uygulamasını kullanan sen ("kullanıcı") arasındaki sözleşmedir. Uygulamayı kullanarak bu Koşulları kabul edersin.</p></div>
+      <div class="clause"><h3>2. Uygunluk ve Yaş Sınırı</h3><p>Rakur alkollü içecek kültürü üzerine bir uygulamadır ve yalnızca 18 yaş ve üzeri kişiler kullanabilir. Kaydolarak 18 yaşından büyük olduğunu beyan edersin. Uygulama alkolü teşvik etmez; sorumlu tüketimi destekler, yerel yasalara uyulmasını bekler.</p></div>
+      <div class="clause"><h3>3. Hesabın</h3><p>Doğru bilgi vermekle yükümlüsün; hesabının güvenliğinden ve altında yapılan işlemlerden sen sorumlusun; hesabını başkasına devredemezsin.</p></div>
+      <div class="clause"><h3>4. Kullanıcı İçeriği</h3><p>Eklediğin içerik (kokteyller, fotoğraflar, notlar, yorumlar) sana aittir. Bu içeriği eklerken, Uygulamanın hizmeti sunması için gerekli sınırlı, telifsiz bir kullanım lisansı bize vermiş olursun. İçeriğin haklarına sahip olduğunu ve üçüncü kişilerin haklarını ihlal etmediğini taahhüt edersin.</p></div>
+      <div class="clause"><h3>5. Yasak Kullanımlar ve Topluluk Kuralları</h3><p>Şunları yapamazsın: yasa dışı, nefret söylemi, taciz edici veya zararlı içerik paylaşmak; 18 yaş altına alkol özendirmek; spam/dolandırıcılık/sahte hesap; başkalarını taciz veya gizlilik ihlali. Uygunsuz içerik/kullanıcıları rapor etme ve engelleme araçları mevcuttur. Kural ihlali içeriği kaldırma ve hesapları askıya alma hakkımız saklıdır.</p></div>
+      <div class="clause"><h3>6. Alkol ve Sorumluluk Feragati</h3><p>İçerik yalnızca bilgilendirme ve kültür amaçlıdır; tıbbi/profesyonel tavsiye değildir. Alkolü aşırı tüketmek sağlığa zararlıdır. Sorumlu tüket, araç kullanma, yerel yasalara uy. Bilgilerin kullanımından doğan sonuçlardan sorumlu değiliz.</p></div>
+      <div class="clause"><h3>7. Fikri Mülkiyet</h3><p>Uygulamanın kendisi, tasarımı, markası (Rakur) ve editoryal içeriği bize aittir; iznimiz olmadan kullanılamaz.</p></div>
+      <div class="clause"><h3>8. Hizmetin "Olduğu Gibi" Sunulması</h3><p>Uygulama "olduğu gibi" sunulur; kesintisiz/hatasız çalışacağını garanti etmeyiz. Yasaların izin verdiği ölçüde dolaylı zararlardan sorumlu değiliz.</p></div>
+      <div class="clause"><h3>9. Fesih</h3><p>Koşulları ihlal edersen hesabını askıya alabilir/kapatabiliriz. Sen de dilediğin zaman hesabını silebilirsin.</p></div>
+      <div class="clause"><h3>10. Değişiklikler</h3><p>Koşulları güncelleyebiliriz; önemli değişikliklerde bilgilendiririz, sonrasında kullanmaya devam etmen kabul anlamına gelir.</p></div>
+      <div class="clause"><h3>11. Uygulanacak Hukuk</h3><p>Bu Koşullar Türkiye Cumhuriyeti yasalarına tabidir; uyuşmazlıklarda İstanbul mahkemeleri yetkilidir.</p></div>
+      <div class="clause"><h3>12. İletişim</h3><p><a href="mailto:rakur.app@gmail.com">rakur.app@gmail.com</a></p></div>
+    </section>
+
+    <section class="doc">
+      <h2>Gizlilik Politikası</h2>
+      <div class="clause"><h3>1. Veri Sorumlusu</h3><p>Rakur uygulamasını sunan Ramazan Kuru, KVKK kapsamında veri sorumlusudur. İletişim: <a href="mailto:rakur.app@gmail.com">rakur.app@gmail.com</a> · İstanbul, Türkiye</p></div>
+      <div class="clause"><h3>2. Topladığımız Kişisel Veriler</h3><p>Hesap (ad, e-posta; Apple ile Giriş'te Apple'ın verdiği ad/e-posta veya gizli adres); profil (biyografi, favoriler, tat tercihleri, doğum tarihi/yaş, profil fotoğrafı); kullanıcı içeriği (kokteyller, tat etiketleri, notlar, fotoğraflar, mekan/şehir/ülke, Listem); sosyal veriler (takip, beğeni, yorum); konum (yalnızca Yakınımdaki için, izninle); teknik/kullanım verileri.</p></div>
+      <div class="clause"><h3>3. İşleme Amaçları</h3><p>Hesabı ve hizmeti sunmak; Damak DNA ve öneriler; sosyal özellikler; güvenlik ve moderasyon; yasal yükümlülükler (yaş sınırı).</p></div>
+      <div class="clause"><h3>4. Hukuki Dayanak (KVKK md. 5-6)</h3><p>Açık rıza (konum, tat verileri, isteğe bağlı paylaşımlar); sözleşme (hesap/hizmet); meşru menfaat (güvenlik); hukuki yükümlülük (yaş doğrulama).</p></div>
+      <div class="clause"><h3>5. Üçüncü Taraflar ve Yurt Dışı Aktarım</h3><p>Supabase (veritabanı/kimlik/depolama) ve Apple (Apple ile Giriş, MapKit) kullanılır; verilerin bir kısmı yurt dışı sunucularda işlenebilir (KVKK md. 9 kapsamında). Verilerini reklam için satmayız.</p></div>
+      <div class="clause"><h3>6. Yaş Sınırı</h3><p>Rakur yalnızca 18 yaş ve üzeri içindir; yaş doğrulaması istenir.</p></div>
+      <div class="clause"><h3>7. Saklama Süresi</h3><p>Verilerini hesabın aktif olduğu sürece ve yasal yükümlülükler boyunca tutarız; hesabını silince makul sürede sileriz/anonimleştiririz.</p></div>
+      <div class="clause"><h3>8. Güvenlik</h3><p>Satır-bazlı güvenlik (RLS), şifreli bağlantı ve erişim kontrolleri gibi tedbirler uygularız; hiçbir sistem %100 güvenli değildir.</p></div>
+      <div class="clause"><h3>9. KVKK Haklarınız (md. 11)</h3><p>İşlenip işlenmediğini öğrenme, bilgi, düzeltme, silme, sınırlama ve itiraz hakların vardır. Talepler: <a href="mailto:rakur.app@gmail.com">rakur.app@gmail.com</a></p></div>
+      <div class="clause"><h3>10. Çerezler / İzleme</h3><p>Hizmet için gerekli minimum teknik veri kullanılır; reklam amaçlı izleme yapılmaz.</p></div>
+      <div class="clause"><h3>11. Değişiklikler</h3><p>Politikayı güncelleyebiliriz; önemli değişikliklerde Uygulama içinden bilgilendiririz.</p></div>
+      <div class="clause"><h3>12. İletişim</h3><p><a href="mailto:rakur.app@gmail.com">rakur.app@gmail.com</a></p></div>
+    </section>
+  </div>
+
+  <!-- ===================== ENGLISH ===================== -->
+  <div class="lang" id="lang-en">
+    <section class="doc">
+      <h2>Terms of Use</h2>
+      <div class="clause"><h3>1. Parties and Acceptance</h3><p>These Terms of Use form the agreement between Ramazan Kuru ("we") who provides the Rakur app and you ("the user") who uses it. By using the app you accept these Terms.</p></div>
+      <div class="clause"><h3>2. Eligibility and Age Limit</h3><p>Rakur is an app about alcoholic-beverage culture and may only be used by people aged 18 and over. By registering, you confirm that you are over 18. The app does not promote alcohol; it supports responsible consumption and expects compliance with local law.</p></div>
+      <div class="clause"><h3>3. Your Account</h3><p>You are responsible for providing accurate information, for the security of your account and for actions taken under it, and you may not transfer your account to anyone else.</p></div>
+      <div class="clause"><h3>4. User Content</h3><p>Content you add (cocktails, photos, notes, comments) belongs to you. By adding it, you grant us a limited, royalty-free license to use it as needed to provide the service. You confirm that you hold the rights to your content and that it does not infringe the rights of third parties.</p></div>
+      <div class="clause"><h3>5. Prohibited Use and Community Rules</h3><p>You may not: share unlawful, hateful, harassing or harmful content; encourage alcohol use by minors; engage in spam/fraud/fake accounts; or harass others or violate their privacy. Tools to report and block inappropriate content and users are available. We reserve the right to remove infringing content and suspend accounts.</p></div>
+      <div class="clause"><h3>6. Alcohol and Disclaimer</h3><p>Content is provided for information and cultural purposes only; it is not medical or professional advice. Excessive alcohol consumption harms your health. Drink responsibly, do not drive, and comply with local law. We are not responsible for the consequences of using this information.</p></div>
+      <div class="clause"><h3>7. Intellectual Property</h3><p>The app itself, its design, its brand (Rakur) and its editorial content belong to us and may not be used without our permission.</p></div>
+      <div class="clause"><h3>8. Service Provided "As Is"</h3><p>The app is provided "as is"; we do not guarantee uninterrupted or error-free operation. To the extent permitted by law, we are not liable for indirect damages.</p></div>
+      <div class="clause"><h3>9. Termination</h3><p>If you breach these Terms we may suspend or close your account. You may also delete your account at any time.</p></div>
+      <div class="clause"><h3>10. Changes</h3><p>We may update these Terms; we will notify you of material changes, and your continued use afterward constitutes acceptance.</p></div>
+      <div class="clause"><h3>11. Governing Law</h3><p>These Terms are governed by the laws of the Republic of Türkiye; the courts of İstanbul have jurisdiction over disputes.</p></div>
+      <div class="clause"><h3>12. Contact</h3><p><a href="mailto:rakur.app@gmail.com">rakur.app@gmail.com</a></p></div>
+    </section>
+
+    <section class="doc">
+      <h2>Privacy Policy</h2>
+      <div class="clause"><h3>1. Data Controller</h3><p>Ramazan Kuru, which provides the Rakur app, is the data controller under the KVKK (Turkish Personal Data Protection Law). Contact: <a href="mailto:rakur.app@gmail.com">rakur.app@gmail.com</a> · İstanbul, Türkiye</p></div>
+      <div class="clause"><h3>2. Personal Data We Collect</h3><p>Account (name, email; with Sign in with Apple, the name/email or private relay address Apple provides); profile (bio, favorites, taste preferences, date of birth/age, profile photo); user content (cocktails, taste tags, notes, photos, venue/city/country, your List); social data (follows, likes, comments); location (only for Near Me, with your permission); technical/usage data.</p></div>
+      <div class="clause"><h3>3. Purposes of Processing</h3><p>To provide the account and the service; Taste DNA and recommendations; social features; security and moderation; legal obligations (age limit).</p></div>
+      <div class="clause"><h3>4. Legal Basis (KVKK art. 5-6)</h3><p>Explicit consent (location, taste data, optional shares); contract (account/service); legitimate interest (security); legal obligation (age verification).</p></div>
+      <div class="clause"><h3>5. Third Parties and International Transfer</h3><p>We use Supabase (database/authentication/storage) and Apple (Sign in with Apple, MapKit); some data may be processed on servers abroad (within the scope of KVKK art. 9). We do not sell your data for advertising.</p></div>
+      <div class="clause"><h3>6. Age Limit</h3><p>Rakur is only for people aged 18 and over; age verification is required.</p></div>
+      <div class="clause"><h3>7. Retention Period</h3><p>We keep your data for as long as your account is active and throughout any legal obligations; when you delete your account we delete or anonymize it within a reasonable period.</p></div>
+      <div class="clause"><h3>8. Security</h3><p>We apply measures such as row-level security (RLS), encrypted connections and access controls; no system is 100% secure.</p></div>
+      <div class="clause"><h3>9. Your KVKK Rights (art. 11)</h3><p>You have the rights to learn whether your data is processed, to information, correction, deletion, restriction and objection. Requests: <a href="mailto:rakur.app@gmail.com">rakur.app@gmail.com</a></p></div>
+      <div class="clause"><h3>10. Cookies / Tracking</h3><p>We use the minimum technical data required for the service; no advertising-purpose tracking is performed.</p></div>
+      <div class="clause"><h3>11. Changes</h3><p>We may update this Policy; we will notify you within the app of material changes.</p></div>
+      <div class="clause"><h3>12. Contact</h3><p><a href="mailto:rakur.app@gmail.com">rakur.app@gmail.com</a></p></div>
+    </section>
+  </div>
+
+  <footer>© 2026 Rakur · Ramazan Kuru · İstanbul, Türkiye</footer>
+</div>
+
+<script>
+  function setLang(l) {
+    document.getElementById('lang-tr').classList.toggle('show', l === 'tr');
+    document.getElementById('lang-en').classList.toggle('show', l === 'en');
+    document.getElementById('btn-tr').classList.toggle('active', l === 'tr');
+    document.getElementById('btn-en').classList.toggle('active', l === 'en');
+    document.documentElement.lang = l;
+    document.querySelectorAll('[data-tr]').forEach(function (el) {
+      el.textContent = l === 'en' ? el.getAttribute('data-en') : el.getAttribute('data-tr');
+    });
+  }
+  // Default to the browser's language when it's English.
+  if ((navigator.language || '').toLowerCase().startsWith('en')) setLang('en');
+</script>
+</body>
+</html>
